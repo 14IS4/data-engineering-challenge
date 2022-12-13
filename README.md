@@ -1,13 +1,13 @@
 ## Data Engineering Challenge Submission - Kendrick Horeftis
 
-
+### Please see the [Guidelines](https://github.com/14IS4/data-engineering-challenge/blob/master/GUIDELINES.md) for the original request
 
 ## Submission Items
 
-1. [Python scripts](https://gitlab.com/khoreftis/data-engineering/-/tree/Development/atlas) written to solve the problem.
-2. A [requirements.txt](https://gitlab.com/khoreftis/data-engineering/-/blob/Development/requirements.txt) file that contains the list of packages required to run my script.
-3. An [output.txt](https://gitlab.com/khoreftis/data-engineering/-/blob/Development/output.txt) file containing the output from my script matching the expect output.
-4. An [instructions.txt](https://gitlab.com/khoreftis/data-engineering/-/blob/Development/instructions.txt) file containing instructions on how to run my submission.
+1. [Python scripts](https://github.com/14IS4/data-engineering-challenge/tree/master/atlas) written to solve the problem.
+2. A [requirements.txt](https://github.com/14IS4/data-engineering-challenge/blob/master/requirements.txt) file that contains the list of packages required to run my script.
+3. An [output.txt](https://github.com/14IS4/data-engineering-challenge/blob/master/output.txt) file containing the output from my script matching the expect output.
+4. An [instructions.txt](https://github.com/14IS4/data-engineering-challenge/blob/master/instructions.txt) file containing instructions on how to run my submission.
 
 ---
 
