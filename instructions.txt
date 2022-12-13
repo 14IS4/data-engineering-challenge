@@ -1,0 +1,7 @@
+Installation Instructions
+
+1. First, the MYSQL_USER and MYSQL_PASS variables need to be set in env.sh.
+2. Next, running setup.sh will configure a virtualenv, as long as that is
+   already setup in your environment.
+3. Lastly, running the run.sh script will load the environment variables 
+   along with the virtualenv and kick of the job with the default arguments.

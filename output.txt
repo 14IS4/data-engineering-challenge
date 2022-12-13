@@ -1,0 +1,121 @@
+Elapsed Time:  38 seconds
+
+Total Matches: 6590
+
+Sample Output: [
+    {
+        "doximity_id": 172450,
+        "vendor_id": 127641,
+        "run_date": "2017-02-02",
+        "doximity_last_active_date": "2017-01-30T00:00:00Z",
+        "vendor_last_active_date": "2017-01-31",
+        "is_doximity_active": true,
+        "is_vendor_active": true,
+        "emmited_at": "2021-11-15 18:58:16.770897"
+    },
+    {
+        "doximity_id": 53255,
+        "vendor_id": 65619,
+        "run_date": "2017-02-02",
+        "doximity_last_active_date": "2016-12-28T00:00:00Z",
+        "vendor_last_active_date": "2016-12-31",
+        "is_doximity_active": false,
+        "is_vendor_active": false,
+        "emmited_at": "2021-11-15 18:58:16.770966"
+    },
+    {
+        "doximity_id": 52830,
+        "vendor_id": 89433,
+        "run_date": "2017-02-02",
+        "doximity_last_active_date": "2017-02-02T00:00:00Z",
+        "vendor_last_active_date": "2017-01-06",
+        "is_doximity_active": true,
+        "is_vendor_active": true,
+        "emmited_at": "2021-11-15 18:58:16.771002"
+    },
+    {
+        "doximity_id": 884410,
+        "vendor_id": 35942,
+        "run_date": "2017-02-02",
+        "doximity_last_active_date": "2017-01-10T00:00:00Z",
+        "vendor_last_active_date": "2016-12-28",
+        "is_doximity_active": true,
+        "is_vendor_active": false,
+        "emmited_at": "2021-11-15 18:58:16.771033"
+    },
+    {
+        "doximity_id": 956510,
+        "vendor_id": 120391,
+        "run_date": "2017-02-02",
+        "doximity_last_active_date": "2017-01-20T00:00:00Z",
+        "vendor_last_active_date": "2017-01-21",
+        "is_doximity_active": true,
+        "is_vendor_active": true,
+        "emmited_at": "2021-11-15 18:58:16.771063"
+    },
+    {
+        "doximity_id": 214055,
+        "vendor_id": 147715,
+        "run_date": "2017-02-02",
+        "doximity_last_active_date": "2016-12-25T00:00:00Z",
+        "vendor_last_active_date": "2017-01-25",
+        "is_doximity_active": false,
+        "is_vendor_active": true,
+        "emmited_at": "2021-11-15 18:58:16.771092"
+    },
+    {
+        "doximity_id": 800115,
+        "vendor_id": 77546,
+        "run_date": "2017-02-02",
+        "doximity_last_active_date": "2017-01-12T00:00:00Z",
+        "vendor_last_active_date": "2017-01-14",
+        "is_doximity_active": true,
+        "is_vendor_active": true,
+        "emmited_at": "2021-11-15 18:58:16.771120"
+    },
+    {
+        "doximity_id": 218675,
+        "vendor_id": 14770,
+        "run_date": "2017-02-02",
+        "doximity_last_active_date": "2017-01-24T00:00:00Z",
+        "vendor_last_active_date": "2017-01-20",
+        "is_doximity_active": true,
+        "is_vendor_active": true,
+        "emmited_at": "2021-11-15 18:58:16.771148"
+    },
+    {
+        "doximity_id": 91020,
+        "vendor_id": 23799,
+        "run_date": "2017-02-02",
+        "doximity_last_active_date": "2017-01-02T00:00:00Z",
+        "vendor_last_active_date": "2017-01-10",
+        "is_doximity_active": false,
+        "is_vendor_active": true,
+        "emmited_at": "2021-11-15 18:58:16.771176"
+    },
+    {
+        "doximity_id": 397565,
+        "vendor_id": 93081,
+        "run_date": "2017-02-02",
+        "doximity_last_active_date": "2016-12-27T00:00:00Z",
+        "vendor_last_active_date": "2017-01-03",
+        "is_doximity_active": false,
+        "is_vendor_active": true,
+        "emmited_at": "2021-11-15 18:58:16.771204"
+    }
+]
+
+SQL DDL: 
+    CREATE TABLE IF NOT EXISTS user_match (
+        id                          BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+        doximity_id                 INT UNSIGNED NOT NULL,
+        vendor_id                   INT UNSIGNED NOT NULL,
+        run_date                    DATE NOT NULL,
+        doximity_last_active_date   DATE NOT NULL,
+        vendor_last_active_date     DATE NOT NULL,
+        is_doximity_active          BOOLEAN NOT NULL,
+        is_vendor_active            BOOLEAN NOT NULL,
+        emmited_at                  TIMESTAMP NOT NULL,
+        loaded_at                   TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+        PRIMARY KEY (id)
+    )
